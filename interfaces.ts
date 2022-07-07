@@ -9,10 +9,12 @@ export interface ICard {
     quote: boolean
 }
 
-export interface IQuote {
-    quote?: boolean
+export interface IAvatar {
+    pfp: string
 }
 
-export interface IBg {
-    bg: string
+export interface ICardset {
+    bgcolor?: string,
+    quote?: boolean,
+    useDarkText: boolean
 }
